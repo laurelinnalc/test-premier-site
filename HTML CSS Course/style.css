@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'afta_sansregular';
+    src: url('fonts/aftasansthin-regular-webfont.eot');
+    src: url('fonts/aftasansthin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aftasansthin-regular-webfont.woff2') format('woff2'),
+         url('fonts/aftasansthin-regular-webfont.woff') format('woff'),
+         url('fonts/aftasansthin-regular-webfont.ttf') format('truetype'),
+         url('fonts/aftasansthin-regular-webfont.svg#afta_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+        font-family: 'chunkfiveregular';
+        src: url('fonts/chunkfive-regular-webfont.eot');
+        src: url('fonts/chunkfive-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/chunkfive-regular-webfont.woff2') format('woff2'),
+             url('fonts/chunkfive-regular-webfont.woff') format('woff'),
+             url('fonts/chunkfive-regular-webfont.ttf') format('truetype'),
+             url('fonts/chunkfive-regular-webfont.svg#chunkfiveregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+@font-face {
+        font-family: 'quicksandlight';
+        src: url('fonts/quicksand-light-webfont.eot');
+        src: url('fonts/quicksand-light-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/quicksand-light-webfont.woff2') format('woff2'),
+             url('fonts/quicksand-light-webfont.woff') format('woff'),
+             url('fonts/quicksand-light-webfont.ttf') format('truetype'),
+             url('fonts/quicksand-light-webfont.svg#quicksandlight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    
+    }
+
+
+.table {
+   font-family: 'quicksandlight'; 
+   color: white;
+   font-size: 5em;
+   position: absolute;
+   top: 370px; /*abaisse ou monte le texte sur la page, plus le chiffre est important, plus c'est bas*/
+   left: 100px; /*espace qu'il y aura à gauche du texte*/
+   text-shadow: 1px 1px 2px rgb(43, 48, 51);
+
+}
+
+h1 {
+    font-family: 'chunkfiveregular';
+    color: white;
+    font-size: 3em;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.home {
+  display: inline-block;
+    width: calc(50% / 8);
+    font-size: 14px; 
+    text-decoration: none;
+    color: white;
+    font-family: 'quicksandlight'; 
+    
+
+}
+.menu {
+  display: inlin5-block;
+    width: calc(50% / 8);
+    font-size: 14px; 
+    text-decoration: none;
+    color: white;
+    font-family: 'quicksandlight'; 
+}
+
+.local {
+  display: inline-block;
+    width: calc(50% / 8);
+    font-size: 14px; 
+    text-decoration: none;
+    color: white;
+    font-family: 'quicksandlight'; 
+}
+.contact {
+  display: inline-block;
+    width: calc(100% / 8);
+    font-size: 14px; 
+    text-decoration: none;
+    color: white;
+    font-family: 'quicksandlight'; 
+}
+
+  body {
+    background-image: url(img/fond-site.jpg) ;
+    background-size: 1950px 900px;
+    background-repeat: no-repeat; 
+    color: rgba(252, 241, 245, 0.932);
+  }
+
+  footer {
+    position: absolute;
+    top: 710px;
+    left: 1680px;
+    color: rgb(175, 175, 207);
+    letter-spacing: 0.2em;
+    font-family: 'quicksandlight'; 
+    font-size: small;
+
+  }
+
+.border-button {
+   font-family: 'quicksandlight';
+   position: absolute;
+   top: 300px;
+   left: 200px;
+   font-size: 21px;
+   text-decoration: none;
+   color: white;
+   border: ridge;
+   padding: 17px; /*augmente l'espace intérieur entre le texte et la bordure d'encadrement*/
+transition: color 1s;
+}
+a:hover /*permet de changer la couleur du lien lorsque la souris survole le lien*/
+{
+color: rgb(11, 87, 150);
+transition: color 1s;
+}
+
